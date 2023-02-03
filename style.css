@@ -1,0 +1,146 @@
+/*-------------------------Обнуление-------------------------------*/
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+html,
+body {
+    background-color: #3C3E44;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+/*------------------------Wrapper---------------------------*/
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+/*-------------------------Header-------------------------------*/
+.hedaer {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100vh;
+}
+.header__content {
+    width: 150.03px;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header__logo {
+    height: 133px;
+    background: linear-gradient(225deg, #00FF94 0%, #0065C1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__menu {
+    height: 172px;
+}
+.menu__list {
+}
+.menu__item {
+    width: 150px;
+    height: 32px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1); 
+}
+.menu__item:not(:last-child) {
+    margin: 0px 0px 3px 0px;
+}
+.menu__link {
+    color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+}
+/*-------------------------Main-------------------------------*/
+.page {
+    height: 100vh;
+    width: 1002px;
+    color: #fff;
+}
+.page__content {
+    width: 722px;
+    height: 435px;
+    margin: 30px 0px 30px 20px;
+}
+.page__content h2 {
+    font-size: 12px;
+    line-height: 80%;  
+    font-weight: 500;
+}
+.page__content h3 {
+    font-size: 10px;
+    line-height: 120%;
+    font-weight: 400;
+}
+.page__first {
+}
+.page__first:not(:last-child) {
+    margin: 0px 0px 25px 0px;
+}
+.first__content {
+    width: 480px;
+    height: 120px;    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+._box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(149.27deg, #00FFD1 -1.87%, #8100E6 121.64%);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+._content {
+    display: flex;
+}
+.first__box2 {
+    background: linear-gradient(211.38deg, #00FFD1 -1.95%, #8100E6 108.41%);
+}
+.page__second {
+    width: 722px;
+    height: 135px;
+}
+.second__content {
+    height: 120px;
+    justify-content: space-between;
+    margin: 10px;
+}
+.second__box {
+    display: flex;
+    align-items: flex-end;
+    width: 220px;
+    height: 100px;
+    background: linear-gradient(149.27deg, #00FFD1 -1.87%, #8100E6 121.64%);
+}
+.box__container {
+    width: 180px;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.second__box h2 {
+    font-size: 48px;
+    line-height: 123%;
+    margin: 0px 0px 21px 0px;
+}
+.low {
+    opacity: 0.5;   
+}
+.mid {
+    opacity: 0.8;
+}
